@@ -14,17 +14,7 @@
     <module>multi-module</module>
     <module>single-module</module>
   </modules>
- 	<plugin>
-		<groupId>org.apache.tomcat.maven</groupId>
-		<artifactId>tomcat7-maven-plugin</artifactId>
-		<version>2.2</version>
-		<configuration>
-			<url>http://35.203.68.234:9090/</url>
-			<server>TomcatServer</server>
-			<path>/webapp</path>
-		</configuration>
-	</plugin>
-
+ 	
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
